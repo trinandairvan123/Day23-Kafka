@@ -1,0 +1,22 @@
+GET http://localhost:8181/api/v1/catalog
+###
+
+GET http://localhost:8182/api/v1/user
+###
+
+POST http://localhost:8183/api/v1/order
+Content-Type: application/json
+
+{
+    "userID": 0,
+    "catalogID": 1,
+    "quantity": 19
+}
+
+###
+
+GET http://localhost:8181/api/v1/catalog
+###
+
+GET http://localhost:8182/api/v1/user
+###
